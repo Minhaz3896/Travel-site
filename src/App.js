@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Cards from "./Components/Cards";
+import Food from "./Components/Food";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
        <Navbar/>
        <Hero/>
        <Cards/>
+       <Food/>
     </div>
   );
 }
